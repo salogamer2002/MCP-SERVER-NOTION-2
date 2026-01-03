@@ -1,0 +1,39 @@
+{
+  "name": "ai-agent-hub-backend",
+  "version": "1.0.0",
+  "description": "LangChain-powered AI Agent with Gmail, Calendar, and Notion integration",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "langchain",
+    "ai-agent",
+    "gmail",
+    "calendar",
+    "notion",
+    "fireworks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^3.8.4",
+    "@langchain/community": "^0.3.58",
+    "@langchain/core": "^0.3.79",
+    "@langchain/openai": "^0.6.16",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@notionhq/client": "^2.3.0",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "googleapis": "^126.0.1",
+    "langchain": "^0.3.36",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
