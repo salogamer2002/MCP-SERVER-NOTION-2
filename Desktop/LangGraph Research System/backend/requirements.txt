@@ -1,0 +1,28 @@
+# LangGraph Research System - Python Dependencies
+
+# Core LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# FastAPI for backend server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+websockets>=12.0
+
+# HTTP client for Fireworks AI
+aiohttp>=3.9.0
+
+# Real web search (REQUIRED for internet search)
+duckduckgo-search>=5.0.0
+
+# Data handling
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Async support
+aiofiles>=23.0.0
+
+# Optional: For production deployment
+python-dotenv>=1.0.0
